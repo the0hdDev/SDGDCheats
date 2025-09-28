@@ -1,9 +1,9 @@
-add_libary(Mem.Manipulator SHARED
-        Mem.Manipulator.Main.cpp
-        Mem.Manipulator.Main.h
+add_library(Mem.Core STATIC
+        Mem.Core.Main.cpp
+        Mem.Core.Main.h
 )
 
-target_link_libraries(Mem.Core. PRIVATE
-
+target_link_libraries(Mem.Core PRIVATE
+    Mem.Manipulator
 
 )
